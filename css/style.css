@@ -110,6 +110,10 @@
         padding-top: 20px;
         padding-bottom: 16px;
     }
+    header .header_top .top-left{
+        display: flex;
+        align-items: center;
+    }
     header .header_top .top-left select{
         border: none;
         font-family: 'Roboto';
@@ -155,6 +159,9 @@
     } 
     header .header_top .top-right {
         height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
     }
     header .header_top .top-right .call1{
         font-family: 'Roboto';
@@ -201,6 +208,7 @@
     }
     header .header_top .top-right .user {
         margin-left: 32px;
+        display: flex;
     }
     header .header_top .top-right .user .user-left .name{
         text-decoration: none;
@@ -237,6 +245,9 @@
     header .header_nav .header_nav_top {
         background: #ECF3F9;
         padding: 18px 0;
+        display: flex;
+        align-items: center;
+        justify-content: end;
     }
     header .header_nav .header_nav_top a{
         font-family: 'Roboto';
@@ -252,7 +263,62 @@
         color: #0069AB;
         margin-right: 14px;
     }
+    header .header_nav .header_nav_bottom {
+        background: #0069AB;
+        padding: 8px 0;
+    }
+    header .header_nav .header_nav_bottom .fa-expand {
+        width: 20px;
+        height: 20px;
+        color: white;
+    }
+    header .header_nav .header_nav_bottom .catalog{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        text-decoration: none;
+        margin-left: 15px;
+    }
+    header .header_nav .header_nav_bottom input{
+        width: 100%;
+        border-radius: 5px; 
+        border: none;
+        background: white;
+        padding: 14px 10px;
+        resize: none;
+    }
+    header .header_nav .header_nav_bottom .link{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        text-decoration: none;
+        background: #FF8400;
+        padding: 14px 24px;
+        border-radius: 5px;
+    }
+    header .header_nav .header_nav_bottom .sale{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        text-decoration: none;
+    } 
+    header .header_nav .header_nav_bottom .stock{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
 
-    
 }
-
