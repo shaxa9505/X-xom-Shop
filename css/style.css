@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ================ VAR ROOT CSS ============= */
+
+:root{
+    --col-sl-1: calc(100% / 12 * 1);
+    --col-sl-2: calc(100% / 12 * 2);
+    --col-sl-3: calc(100% / 12 * 3);
+    --col-sl-4: calc(100% / 12 * 4);
+    --col-sl-5: calc(100% / 12 * 5);
+    --col-sl-6: calc(100% / 12 * 6);
+    --col-sl-7: calc(100% / 12 * 7);
+    --col-sl-8: calc(100% / 12 * 8);
+    --col-sl-9: calc(100% / 12 * 9);
+    --col-sl-10: calc(100% / 12 * 10);
+    --col-sl-11: calc(100% / 12 * 11);
+    --col-sl-12: calc(100% / 12 * 12);
+    --ffR: 'Roboto', sans-serif;
+    --ffM: 'Montserrat', sans-serif;
+}
+
+/*  ============== MEDIA QUERY ===============  */
+
+/* ======= 1920px ======= */
+
+@media (max-width: 1920px) {
+    .container-sl {
+        max-width: 1560px;
+        width: 100%;
+        margin: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .row-sl{
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .col-sl-1{
+        width: var(--col-sl-1);
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .col-sl-2{
+        width: var(--col-sl-2);
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .col-sl-3{
+        width: var(--col-sl-3);
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .col-sl-4{
+        width: var(--col-sl-4);
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .col-sl-5{
+        width: var(--col-sl-5);
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .col-sl-6{
+        width: var(--col-sl-6);
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .col-sl-7{
+        width: var(--col-sl-7);
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .col-sl-8{
+        width: var(--col-sl-8);
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .col-sl-9{
+        width: var(--col-sl-9);
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .col-sl-10{
+        width: var(--col-sl-10);
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .col-sl-11{
+        width: var(--col-sl-11);
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .col-sl-12{
+        width: var(--col-sl-12);
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    /* ============== HEADER START =============== */
+
+
+    /* ====== header_top ====== */
+
+    header .header_top {
+        padding-top: 20px;
+        padding-bottom: 16px;
+    }
+    header .header_top .top-left select{
+        border: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        color: #333333;
+        margin-left: 48px;
+    }
+    header .header_top .top-left .work_time{
+        margin-left: 77px;
+    }
+    header .header_top .top-left .work_time p{
+        margin: 0;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        color: #333333;
+    }
+    header .header_top .top-left .work_time span{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        color: #1267B0;
+    }
+    header .header_top .top-left .phones{
+        margin-left: 84px;
+    }
+    header .header_top .top-left .phones p,
+    header .header_top .top-left .phones span {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        color: #333333;
+        margin: 0;
+    } 
+    header .header_top .top-right {
+        height: 100%;
+    }
+    header .header_top .top-right .call1{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        color: #0069AB;
+        padding: 5px 10px;
+        border: 1px solid #0069AB;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    header .header_top .top-right .call2{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        color: #0069AB;
+        padding: 5px 10px;
+        border: 1px solid #0069AB;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-right: 60px;
+    }
+    header .header_top .top-right .icons a{
+        color: #0069AB;
+        text-decoration: none;
+        font-size: 21px;
+        position: relative;
+    }
+    header .header_top .top-right .icons a::after{
+        content: "12";
+        position: absolute;
+        color: #f9fafb;
+        font-size: 11px;
+        top: 13px;
+        left: 13px;
+        background: red;
+        border-radius: 5px;
+        padding: 2px;
+
+    }
+    header .header_top .top-right .user {
+        margin-left: 32px;
+    }
+    header .header_top .top-right .user .user-left .name{
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        color: #333333;
+    }
+    header .header_top .top-right .user .user-left .bal{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        color: #FF8400;
+    }
+    header .header_top .top-right .user .user_img{
+        background: #0069AB;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        margin-left: 8px;
+    }
+
+    /* ====== header_nav ====== */
+
+    header .header_nav .header_nav_top {
+        background: #ECF3F9;
+        padding: 18px 0;
+    }
+    header .header_nav .header_nav_top a{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        color: #000000;
+        margin-right: 62px;
+        text-decoration: none;
+    }
+    header .header_nav .header_nav_top a i{
+        color: #0069AB;
+        margin-right: 14px;
+    }
+
+    
+}
+
