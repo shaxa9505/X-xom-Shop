@@ -209,6 +209,7 @@
     header .header_top .top-right .user {
         margin-left: 32px;
         display: flex;
+        align-items: center;
     }
     header .header_top .top-right .user .user-left .name{
         text-decoration: none;
