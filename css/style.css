@@ -321,4 +321,208 @@
         text-decoration: none;
     }
 
+    /* ====== header_bottom ====== */
+    header .header_bottom{
+        margin-top: 38px;
+    }
+    header .header_bottom .title{
+        background: linear-gradient(to right, #0069AB, #9CD1FF);
+        padding: 15px 0;
+    }
+    header .header_bottom .title h1{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        color: #FFFFFF;
+        margin: 64px 0 64px 54px;
+        line-height: 34px;
+    }
+    header .header_bottom .title-foot{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        color: #000000;
+        margin: 0;
+        margin-top: 31px;
+        margin-bottom: 38px;
+    } 
+    header .header_bottom  .title-foot span{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+        color: #000000;
+        display: inline-block;
+    }
+    header .header_bottom .accordion .accordion-item{
+        border: none;
+        background: #ECF3F9;
+    }
+    header .header_bottom .accordion .accordion-item .accordion-header  .accordion-button{
+        background: #ECF3F9;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        color: #333333;
+        box-shadow: 0;
+    }
+    header .header_bottom .accordion .accordion-item .accordion-header  .accordion-button span{
+        margin-left: 19px;
+        margin-right: 3px;
+    }
+    header .header_bottom .accordion .accordion-item .accordion-collapse .accordion-body{
+        padding: 0;
+        padding: 0 15px 15px 15px;
+    }
+    header .header_bottom .accordion .accordion-item .accordion-collapse .accordion-body .line{
+        margin-top: 0;
+        margin-bottom: 16px;
+    }
+    header .header_bottom .accordion .accordion-item .accordion-collapse .accordion-body .line2{
+        margin: 16px 0;
+    }
+    header .header_bottom .accordion .accordion-item .accordion-collapse .accordion-body .field h4{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+        color: #333333;
+    }
+    header .header_bottom .accordion .accordion-item .accordion-collapse .accordion-body .field .category{
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+    }
+    header .header_bottom .accordion .accordion-item .accordion-collapse .accordion-body .field .category .sale{
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        color: #333333;
+        margin-right: 50px; 
+    }
+    header .header_bottom .accordion .accordion-item .accordion-collapse .accordion-body .field .category .sale2{
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        color: #333333;
+        margin-right: 28px; 
+    }
+    header .header_bottom .accordion .accordion-item .accordion-collapse .accordion-body .field .category .pagination{
+        margin: 0;
+        padding: 0;
+    }
+    header .header_bottom .accordion .accordion-item .accordion-collapse .accordion-body .field .category .pagination .page-item .first{
+        background: #D8DBDD;
+        color: #686B74;
+        padding: 5px 7px;
+    }
+    header .header_bottom .accordion .accordion-item .accordion-collapse .accordion-body .field .category .pagination .page-item .second {
+        background: #ECF3F9;
+        color: #686B74;
+        padding: 5px 7px;
+    }
+    header .header_bottom .accordion .accordion-item .accordion-collapse .accordion-body .field .category .pagination .page-item .third {
+        background: #B2D0E8;
+        color: #333333;
+        padding: 5px 7px;
+    }
+    header .header_bottom .accordion .accordion-item .accordion-collapse .accordion-body .field .category a .fa-trash-can{
+        color: #686B74;
+        font-size: 20px;
+        margin-left: 8px;
+    }
+    header .header_bottom .accordion .accordion-item .accordion-collapse .accordion-body .field-price .price{
+        display: flex;
+        align-items: center;
+    }
+    header .header_bottom .accordion .accordion-item .accordion-collapse .accordion-body .field-price .price p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        color: #333333;
+        margin: 0;
+    }
+    header .header_bottom .accordion .accordion-item .accordion-collapse .accordion-body .field-price .price a{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        color: #FF8400;
+        text-decoration: none;
+        margin-left: 10px;
+    }
+    header .header_bottom .accordion .accordion-item .accordion-collapse .accordion-body .field-price .price-link{
+        background: #FF8400;
+        border: 1px solid #FF8400;
+        border-radius: 4px;
+        width: 100%;
+        padding: 14px 30px;
+        text-decoration: none;
+        display: block;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFFFFF;
+        margin-top: 20px;
+    }
+    header .header_bottom .field-bottom{
+        margin-top: 30px;
+        padding-left: 15px;
+    }
+    header .header_bottom .field-bottom a{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+        color: #0069AB;
+        text-decoration: none;
+    }
+    header .header_bottom .field-bottom a .fa-money-check,
+    header .header_bottom .field-bottom a .fa-sack-dollar{
+        margin-right: 20px;
+    }
+    header .header_bottom .field-bottom p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+        color: #333333;
+        margin: 0;
+        margin-left: 40px;
+        margin-bottom: 16px;
+    }
+    header .header_bottom .field-bottom .evaluate {
+        display: flex;
+        border: 2px solid #FFCE0D;
+        padding: 16px;
+        margin-top: 20px;
+        align-items: center;
+    }
+    header .header_bottom .field-bottom .evaluate a{
+        color: #FF8400;
+
+    }
+    
+    
+
 }
