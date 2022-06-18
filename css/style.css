@@ -718,18 +718,6 @@
         line-height: 24px;
         color: #000000;
     }
-    main .title1 {
-        background: url("../images/ibp.png") no-repeat center center / cover;
-        width: 100%;
-        padding: 25px;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 29px;
-        color: #FFFFFF;
-        margin-bottom: 24px;
-    }
     main p{
         margin: 0;
         font-family: 'Montserrat';
@@ -779,7 +767,21 @@
         line-height: 24px;
         color: #000000;
     }
-    main .title2 {
+    main .title3 {
+        background: url("../images/ibp.png") no-repeat center center / cover;
+        width: 100%;
+        padding: 25px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        color: #FFFFFF;
+        margin-top: 50px;
+        margin-bottom: 28px;
+        border-radius: 5px;
+    }
+    main .title4 {
         background: url("../images/sks.png") no-repeat center center / cover;
         width: 100%;
         padding: 25px;
@@ -1141,4 +1143,416 @@
         color: #FFFFFF;
         margin-bottom: 24px;
     }
+
+    /* ============== SECTION END =============== */
+
+
+
+    /* ============== MENU START =============== */
+
+    menu .navitel{
+        background: #ECF3F9;   
+        border: 2px solid transparent;
+        border-radius: 5px;
+        margin-top: 38px;
+        margin-bottom: 16px;
+    }
+    menu .navitel .img{
+        padding: 30px 80px;
+        background: white;
+        height: 100%;
+    }
+    menu .navitel .navitel-title {
+        width: 100%;
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+    menu .navitel .navitel-title a{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px;
+        color: #0069AB;
+        text-decoration: none;
+    }
+    menu .navitel .navitel-title p{
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    menu .softOrbits{
+        background: #ECF3F9;   
+        border: 2px solid transparent;
+        border-radius: 5px;
+        margin-bottom: 16px;
+    }
+    menu .softOrbits .img{
+        padding: 16px 138px;
+        background: white;
+        height: 100%;
+    }
+    menu .softOrbits .softOrbits-title {
+        width: 100%;
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+    menu .softOrbits .softOrbits-title a{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px;
+        color: #0069AB;
+        text-decoration: none;
+    }
+    menu .softOrbits .softOrbits-title p{
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    menu .askon{
+        background: #ECF3F9;   
+        border: 2px solid transparent;
+        border-radius: 5px;
+        margin-bottom: 16px;
+    }
+    menu .askon .img{
+        padding: 32px 104px;
+        background: white;
+        height: 100%;
+    }
+    menu .askon .askon-title {
+        width: 100%;
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+    menu .askon .askon-title a{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px;
+        color: #0069AB;
+        text-decoration: none;
+    }
+    menu .askon .askon-title p{
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    menu .dr-web{
+        background: #ECF3F9;   
+        border: 2px solid transparent;
+        border-radius: 5px;
+        margin-bottom: 16px;
+    }
+    menu .dr-web .img{
+        padding: 41px 93px;
+        background: white;
+        height: 100%;
+    }
+    menu .dr-web .dr-web-title {
+        width: 100%;
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+    menu .dr-web .dr-web-title a{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px;
+        color: #0069AB;
+        text-decoration: none;
+    }
+    menu .dr-web .dr-web-title p{
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    menu .kaspersky{
+        background: #ECF3F9;   
+        border: 2px solid transparent;
+        border-radius: 5px;
+        margin-bottom: 64px;
+    }
+    menu .kaspersky .img{
+        padding: 40px 104px;
+        background: white;
+        height: 100%;
+    }
+    menu .kaspersky .kaspersky-title {
+        width: 100%;
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+    menu .kaspersky .kaspersky-title a{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px;
+        color: #0069AB;
+        text-decoration: none;
+    }
+    menu .kaspersky .kaspersky-title p{
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+    }
+    menu .title1 {
+        background: url("../img/korpus.png") no-repeat center center / cover;
+        width: 100%;
+        padding: 25px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        color: #FFFFFF;
+        margin-bottom: 24px;
+    }
+    menu p{
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 28px;
+        color: #000000;
+        text-align: justify;
+    }
+    menu p a {
+        text-decoration: none;
+    }
+
+    menu .euroCase{
+        background: #ECF3F9;   
+        border: 2px solid transparent;
+        border-radius: 5px;
+        margin-top: 38px;
+        margin-bottom: 16px;
+    }
+    menu .euroCase .img{
+        padding: 24px 117px;
+        background: white;
+        height: 100%;
+    }
+    menu .euroCase .euroCase-title {
+        width: 100%;
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+    menu .euroCase .euroCase-title a{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px;
+        color: #0069AB;
+        text-decoration: none;
+    }
+    menu .euroCase .euroCase-title p{
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+
+    menu .filum{
+        background: #ECF3F9;   
+        border: 2px solid transparent;
+        border-radius: 5px;
+        margin-bottom: 68px;
+    }
+    menu .filum .img{
+        padding: 24px 140px;
+        background: white;
+        height: 100%;
+    }
+    menu .filum .filum-title {
+        width: 100%;
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+    menu .filum .filum-title a{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px;
+        color: #0069AB;
+        text-decoration: none;
+    }
+    menu .filum .filum-title p{
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+    }
+    menu .title2 {
+        background: url("../img/sistem.png") no-repeat center center / cover;
+        width: 100%;
+        padding: 25px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        color: #FFFFFF;
+        margin-bottom: 24px;
+    }
+
+    menu .iek{
+        background: #ECF3F9;   
+        border: 2px solid transparent;
+        border-radius: 5px;
+        margin-bottom: 68px;
+        margin-top: 38px;
+    }
+    menu .iek .img{
+        padding: 24px 139px;
+        background: white;
+        height: 100%;
+    }
+    menu .iek .iek-title {
+        width: 100%;
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+    menu .iek .iek-title a{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px;
+        color: #0069AB;
+        text-decoration: none;
+    }
+    menu .iek .iek-title p{
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+    }
+    menu .title3 {
+        background: url("../img/clean.png") no-repeat center center / cover;
+        width: 100%;
+        padding: 25px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        color: #FFFFFF;
+        margin-bottom: 24px;
+    }
+
+    menu .filum2{
+        background: #ECF3F9;   
+        border: 2px solid transparent;
+        border-radius: 5px;
+        margin-top: 38px;
+        margin-bottom: 16px;
+    }
+    menu .filum2 .img{
+        padding: 24px 140px;
+        background: white;
+        height: 100%;
+    }
+    menu .filum2 .filum2-title {
+        width: 100%;
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+    menu .filum2 .filum2-title a{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px;
+        color: #0069AB;
+        text-decoration: none;
+    }
+    menu .filum2 .filum2-title p{
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    menu .konoos{
+        background: #ECF3F9;   
+        border: 2px solid transparent;
+        border-radius: 5px;
+        margin-top: 38px;
+        margin-bottom: 16px;
+    }
+    menu .konoos .img{
+        padding: 23px 113px;
+        background: white;
+        height: 100%;
+    }
+    menu .konoos .konoos-title {
+        width: 100%;
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+    menu .konoos .konoos-title a{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px;
+        color: #0069AB;
+        text-decoration: none;
+    }
+    menu .konoos .konoos-title p{
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+    }
 }
+
