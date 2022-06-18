@@ -101,6 +101,7 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+    
     /* ============== HEADER START =============== */
 
 
@@ -323,6 +324,7 @@
     }
 
     /* ====== header_bottom ====== */
+
     header .header_bottom{
         margin-top: 38px;
     }
@@ -350,7 +352,7 @@
         margin-top: 31px;
         margin-bottom: 38px;
     } 
-    header .header_bottom  .title-foot span{
+    header .header_bottom .title-foot span{
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 700;
@@ -358,6 +360,41 @@
         line-height: 28px;
         color: #000000;
         display: inline-block;
+    }
+    header .header_bottom .products{
+        width: 100%;
+        background: #F5F5F5;
+        display: flex;
+        align-items: center;
+        padding: 16px 0 16px 24px;
+        border-radius: 5px;
+        transition: 500ms;
+        margin-bottom: 12px;
+    }
+    header .header_bottom .products .fa-desktop{
+        /* color: #0069AB; */
+        color: #0069AB;
+        font-size: 18px;
+        display: block;
+    }
+    header .header_bottom .products a{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        color: #000000;
+        text-decoration: none;
+        margin-left: 24px;
+    }
+    header .header_bottom .products:hover{
+        background: linear-gradient(to right, #0069AB, #9CD1FF);
+    }
+    header .header_bottom .products:hover a{
+        color: white;
+    }
+    header .header_bottom .products:hover .fa-desktop{
+        color: white;
     }
     header .header_bottom .accordion .accordion-item{
         border: none;
@@ -524,6 +561,584 @@
 
     }
     
-    
+    /* ============== HEADER END =============== */
 
+
+
+    /* ============== MAIN START =============== */
+
+    main .title1 {
+        background: url("../images/komp.bg.png") no-repeat center center / cover;
+        width: 100%;
+        padding: 25px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        color: #FFFFFF;
+        margin-top: 50px;
+        margin-bottom: 28px;
+        border-radius: 5px;
+    }
+    main p{
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 28px;
+        color: #000000;
+        text-align: justify;
+    }
+    main p a {
+        text-decoration: none;
+    }
+    main .x-com{
+        margin-top: 32px;
+        background: #ECF3F9;   
+        border: 2px solid transparent;
+        border-radius: 5px;
+    }
+    main .x-com:hover{
+        border: 2px solid #0069AB;
+    }
+    main .x-com .img{
+        padding: 39px 116px;
+        background: white;
+        height: 100%;
+    }
+    main .x-com .x-com-title {
+        width: 100%;
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+    main .x-com .x-com-title a{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px;
+        color: #0069AB;
+        text-decoration: none;
+    }
+    main .x-com .x-com-title p{
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    main .aquarius{
+        margin-top: 32px;
+        background: #ECF3F9;   
+        border: 2px solid transparent;
+        border-radius: 5px;
+    }
+    main .aquarius:hover{
+        border: 2px solid #0069AB;
+    }
+    main .aquarius .img{
+        padding: 47px 106px;
+        background: white;
+    }
+    main .aquarius .aquarius-title {
+        width: 100%;
+        padding-top: 37px;
+        padding-bottom: 37px;
+        height: 100%;
+    }
+    main .aquarius .aquarius-title a{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px;
+        color: #0069AB;
+        text-decoration: none;
+    }
+    main .aquarius .aquarius-title p{
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+    }
+    main .title2{
+        background: url("../images/bg.png") no-repeat center center / cover;
+        width: 100%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        color: #FFFFFF;
+        padding: 25px;
+        margin-top: 42px;
+        border-radius: 5px;
+        margin-bottom: 24px;
+    }
+
+    main .eltex{
+        margin-top: 32px;
+        background: #ECF3F9;   
+        border: 2px solid transparent;
+        border-radius: 5px;
+        margin-bottom: 42px;
+    }
+    main .eltex .img{
+        padding: 40px 105px;
+        background: white;
+    }
+    main .eltex .eltex-title {
+        width: 100%;
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+    main .eltex .eltex-title a{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px;
+        color: #0069AB;
+        text-decoration: none;
+    }
+    main .eltex .eltex-title p{
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+    }
+    main .title1 {
+        background: url("../images/ibp.png") no-repeat center center / cover;
+        width: 100%;
+        padding: 25px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        color: #FFFFFF;
+        margin-bottom: 24px;
+    }
+    main p{
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 28px;
+        color: #000000;
+        text-align: justify;
+    }
+    main p a {
+        text-decoration: none;
+    }
+
+    main .power-cube{
+        margin-top: 32px;
+        background: #ECF3F9;   
+        border: 2px solid transparent;
+        border-radius: 5px;
+        margin-bottom: 42px;
+    }
+    main .power-cube .img{
+        padding: 24px 166px;
+        background: white;
+        height: 100%;
+    }
+    main .power-cube .power-cube-title {
+        width: 100%;
+        padding-top: 37px;
+        padding-bottom: 37px;
+    }
+    main .power-cube .power-cube-title a{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px;
+        color: #0069AB;
+        text-decoration: none;
+    }
+    main .power-cube .power-cube-title p{
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+    }
+    main .title2 {
+        background: url("../images/sks.png") no-repeat center center / cover;
+        width: 100%;
+        padding: 25px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        color: #FFFFFF;
+        margin-bottom: 24px;
+    }
+
+    /* ============== MAIN END =============== */
+
+
+    /* ============== SECTION START =============== */
+
+    section .filum{
+        margin-top: 32px;
+        background: #ECF3F9;   
+        border: 2px solid transparent;
+        border-radius: 5px;
+        margin-bottom: 16px;
+    }
+    section .filum .img{
+        padding: 39px 144px;
+        background: white;
+        height: 100%;
+    }
+    section .filum .filum-title {
+        width: 100%;
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+    section .filum .filum-title a{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px;
+        color: #0069AB;
+        text-decoration: none;
+    }
+    section .filum .filum-title p{
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    section .skynet{
+        background: #ECF3F9;   
+        border: 2px solid transparent;
+        border-radius: 5px;
+        margin-bottom: 16px;
+    }
+    section .skynet .img{
+        padding: 26px 144px;
+        background: white;
+        height: 100%;
+    }
+    section .skynet .skynet-title {
+        width: 100%;
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+    section .skynet .skynet-title a{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px;
+        color: #0069AB;
+        text-decoration: none;
+    }
+    section .skynet .skynet-title p{
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    section .nt{
+        background: #ECF3F9;   
+        border: 2px solid transparent;
+        border-radius: 5px;
+        margin-bottom: 16px;
+    }
+    section .nt .img{
+        padding: 33px 90px;
+        background: white;
+        height: 100%;
+    }
+    section .nt .nt-title {
+        width: 100%;
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+    section .nt .nt-title a{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px;
+        color: #0069AB;
+        text-decoration: none;
+    }
+    section .nt .nt-title p{
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    section .sysmatrix{
+        background: #ECF3F9;   
+        border: 2px solid transparent;
+        border-radius: 5px;
+        margin-bottom: 16px;
+    }
+    section .sysmatrix .img{
+        padding: 46px 90px;
+        background: white;
+        height: 100%;
+    }
+    section .sysmatrix .sysmatrix-title {
+        width: 100%;
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+    section .sysmatrix .sysmatrix-title a{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px;
+        color: #0069AB;
+        text-decoration: none;
+    }
+    section .sysmatrix .sysmatrix-title p{
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    section .iek{
+        background: #ECF3F9;   
+        border: 2px solid transparent;
+        border-radius: 5px;
+        margin-bottom: 68px;
+    }
+    section .iek .img{
+        padding: 23px 141px;
+        background: white;
+        height: 100%;
+    }
+    section .iek .iek-title {
+        width: 100%;
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+    section .iek .iek-title a{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px;
+        color: #0069AB;
+        text-decoration: none;
+    }
+    section .iek .iek-title p{
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+    }
+    section .title1 {
+        background: url("../images/ssd.png") no-repeat center center / cover;
+        width: 100%;
+        padding: 25px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        color: #FFFFFF;
+        margin-bottom: 24px;
+    }
+    section p{
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 28px;
+        color: #000000;
+        text-align: justify;
+    }
+    section p a {
+        text-decoration: none;
+    }
+
+    section .tmi{
+        background: #ECF3F9;   
+        border: 2px solid transparent;
+        border-radius: 5px;
+        margin-top: 38px;
+        margin-bottom: 68px;
+    }
+    section .tmi .img{
+        padding: 40px 114px;
+        background: white;
+        height: 100%;
+    }
+    section .tmi .tmi-title {
+        width: 100%;
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+    section .tmi .tmi-title a{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px;
+        color: #0069AB;
+        text-decoration: none;
+    }
+    section .tmi .tmi-title p{
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+    }
+    section .title2 {
+        background: url("../images/video.png") no-repeat center center / cover;
+        width: 100%;
+        padding: 25px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        color: #FFFFFF;
+        margin-bottom: 24px;
+    }
+
+    section .beward{
+        background: #ECF3F9;   
+        border: 2px solid transparent;
+        border-radius: 5px;
+        margin-top: 38px;
+        margin-bottom: 68px;
+    }
+    section .beward .img{
+        padding: 37px 105px;
+        background: white;
+        height: 100%;
+    }
+    section .beward .beward-title {
+        width: 100%;
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+    section .beward .beward-title a{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px;
+        color: #0069AB;
+        text-decoration: none;
+    }
+    section .beward .beward-title p{
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+    }
+    section .title3 {
+        background: url("../images/tech.png") no-repeat center center / cover;
+        width: 100%;
+        padding: 25px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        color: #FFFFFF;
+        margin-bottom: 24px;
+    }
+
+    section .fimaging{
+        background: #ECF3F9;   
+        border: 2px solid transparent;
+        border-radius: 5px;
+        margin-top: 38px;
+        margin-bottom: 68px;
+    }
+    section .fimaging .img{
+        padding: 37px 112px;
+        background: white;
+        height: 100%;
+    }
+    section .fimaging .fimaging-title {
+        width: 100%;
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+    section .fimaging .fimaging-title a{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px;
+        color: #0069AB;
+        text-decoration: none;
+    }
+    section .fimaging .fimaging-title p{
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+    }
+    section .title4 {
+        background: url("../images/programms.png") no-repeat center center / cover;
+        width: 100%;
+        padding: 25px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        color: #FFFFFF;
+        margin-bottom: 24px;
+    }
 }
